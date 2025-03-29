@@ -370,7 +370,7 @@ function buildVectorSearchPipeline(queryEmbedding, filters = {}) {
     {
       $vectorSearch: {
         index: "vector_index",
-        path: "embeddings",
+        path: "embedding",
         queryVector: queryEmbedding,
         exact: true,
         limit: 15,

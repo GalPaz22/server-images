@@ -634,7 +634,6 @@ async function reorderImagesWithGPT(
    const productData = combinedResults.map(product => ({
      id: product._id.toString(),
      name: product.name,
-     image: product.image,
      description: product.description1,
    }));
 

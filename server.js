@@ -648,7 +648,7 @@ async function reorderImagesWithGPT(
        role: "user",
        parts: [
          {
-           text: `You are an advanced AI model specializing in e-commerce queries. Your role is to analyze a given "${translatedQuery}", from an e-commerce site, along with a provided list of products (each including only an image), and return the **most relevant product IDs** based on how well the product images match the query.
+           text: `You are an advanced AI model specializing in e-commerce queries. Your role is to analyze a given "${query}", from an e-commerce site, along with a provided list of products (each including only an image), and return the **most relevant product IDs** based on how well the product images match the query.
 
 ### Key Instructions:
 1. Ignore pricing details (already filtered).
